@@ -1,7 +1,7 @@
 package model;
 
 import model.global.Account;
-import model.global.Entity;
+import model.global.base.Entity;
 import service.DepositPercentBetService;
 import service.FeeService;
 
@@ -14,4 +14,5 @@ public class Bank extends Entity {
     private List<Account> accountList;
     private DepositPercentBetService depositPercentBetService;
     private FeeService feeService;
+
 }
